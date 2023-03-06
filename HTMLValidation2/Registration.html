@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <!-- head has on 5 tags title,meta, link,style,script -->
+
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label>First Name*</label>
+            <input type="text" tabindex="3" required />
+        </div>
+        <div>
+            <label>Last Name::</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label>Middle Name</label>
+            <input type="text" />
+        </div>
+        <div>
+            <label>User Name*:</label>
+            <input type="text" required minlength="5" maxlength="10" />
+        </div>
+        <div>
+            <label>Mobile Number*</label>
+            <input type="text" tabindex="1" required placeholder="10 Digit Mobile Number" />
+        </div>
+        <div>
+            <label>Email Id*</label>
+            <input type="email" required tabindex="2" />
+        </div>
+        <div>
+            <label>State</label>
+            <select>
+                <option>Please Select</option>
+                <option>UP</option>
+                <option>MP</option>
+                <option>TN</option>
+                <option>KA</option>
+                <option>KL</option>
+            </select>
+        </div>
+        <div>
+            <label>Estimate</label>
+            <input type="text" value="500" disabled />
+        </div>
+        <div>
+            <label>Quote</label>
+            <input type="number" min="200" max="2000" />
+        </div>
+        <div>
+            <input type="checkbox" />
+            please Accept Term & Conditions
+        </div>
+        <input type="submit" value="Registration" />
+        <input type="submit" disabled value="Reg2" />
+
+    </form>
+</body>
+
+</html>
